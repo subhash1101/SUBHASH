@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        min-height: 100vh;
+        background-color: #f7f7f7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("23e0c2ef73de32cc76bd1527eed4929a.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .card {
+        background-color: #fff;
+        padding: 2rem;
+        border-radius: 1rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 70%;
+      }
+
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;
+      }
+
+      .header h1 {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+
+      .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2px;
+      }
+
+      .nav a {
+        text-decoration: none;
+        color: red;
+        margin-right: 20px;
+      }
+
+      .nav a:hover {
+        text-decoration: underline;
+      }
+
+      .nav button {
+        background-color: red;
+        color: #fff;
+        border: none;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        cursor: pointer;
+        margin-right: 20px;
+      }
+
+      .nav button:hover {
+        background-color: black;
+      }
+
+      .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .content h2 {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+      }
+
+      .content p {
+        color: #666;
+        margin-bottom: 2rem;
+      }
+
+      .content button {
+        background-color: red;
+        color: #fff;
+        border: none;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        cursor: pointer;
+      }
+
+      .content button:hover {
+        background-color: black;
+      }
+
+      .image-container {
+        margin-top: 2rem;
+      }
+
+      .image-container img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 1rem;
+      }
+    </style>
+    <script type="module" src="./homepage.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <header class="header">
+          <h1>CELEBRINFO</h1>
+          <nav class="nav">
+            <a href="#" id="login">Login</a>
+            <a href="#">SignUp</a>
+            <button>Get Started</button>
+          </nav>
+        </header>
+        <div class="content">
+          <h2>Celebrity Info</h2>
+          <p>
+            In this website you can find the details of the celebrites you wish
+            to find.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
